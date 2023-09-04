@@ -336,6 +336,9 @@ section .title::after{
     top: 0;
     background: #fab700;
 }
+.skills-content .right .python::before{
+    width: 70%;
+}
 .skills-content .right .c::before{
     width: 90%;
 }
