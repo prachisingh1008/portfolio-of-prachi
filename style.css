@@ -96,7 +96,7 @@ html{
 /*home section styling*/
 .home{
     display: flex;
-    background: url("IMAGE/A1.png") no-repeat center;
+    background: url("IMAGE/AA1.png") no-repeat center;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -351,9 +351,7 @@ section .title::after{
 .skills-content .right .js::before{
     width: 50%;
 }
-.skills-content .right .c++::before{
-    width: 90%;
-}
+
 .skills-content .right .mysql::before{
     width: 80%;
 }
