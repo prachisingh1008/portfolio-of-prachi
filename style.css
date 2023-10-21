@@ -23,11 +23,10 @@ html{
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
-.navbar.sticky {
+.navbar.sticky{
     padding: 15px 0;
-    background: #fab700; /* Change this to your desired background color (light grey) */
+    background: #fab700;
 }
-
 .navbar .max-width{
     display: flex;
     align-items: center;
@@ -271,10 +270,9 @@ section .title::after{
     color: #fab700;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover {
-    background: #fab700; /* Change this to your desired background color (light grey) */
+.services .serv-content .card:hover i{
+    color: #fff;
 }
-
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
@@ -330,15 +328,14 @@ section .title::after{
     background: lightgrey;
     position: relative;
 }
-.skills .skills-content .right .line::before {
+.skills .skills-content .right .line::before{
     content: "";
     position: absolute;
     height: 100%;
     left: 0;
     top: 0;
-    background: #fab700; /* Change this to your desired background color (light grey) */
+    background: #fab700;
 }
-
 .skills-content .right .python::before{
     width: 70%;
 }
@@ -474,8 +471,8 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.contact .contact-content .card:hover {
-    background: #fab700; /* Change this to your desired background color (light grey) */
+.contact .contact-content .card:hover{
+    background: #333;
 }
 
 .contact .contact-content .card .box{
